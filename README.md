@@ -9,7 +9,6 @@ This project is a deliberately vulnerable web application developed using PHP an
 - Help learners understand the difference between insecure and secure code.
 - Practice penetration testing skills and secure coding in a PHP/MySQL environment.
 
----
 
 ## Technologies Used
 
@@ -19,7 +18,6 @@ This project is a deliberately vulnerable web application developed using PHP an
 - **Server:** XAMPP (Apache + MySQL)
 - **Tools for Testing:** Burp Suite, Browser Developer Tools
 
----
 
 ## Vulnerabilities Demonstrated
 
@@ -32,7 +30,6 @@ This project includes pages intentionally vulnerable to:
 - **Plaintext Password Storage** – Demonstrated in early phase (later secured).
 - **Lack of Brute-force Protection** – Demonstrated and then mitigated.
 
----
 
 ## Secure Features Implemented
 
@@ -44,7 +41,6 @@ This project includes pages intentionally vulnerable to:
 - Restricted access to pages without authentication.
 - CSRF token mechanism added in secure version of critical forms.
 
----
 
 ## Setup Instructions
 
@@ -54,7 +50,6 @@ This project includes pages intentionally vulnerable to:
 4. Access the app at: http://localhost/secure-web-app/login.php OR http://localhost/vuln-web-app/login.php
 5. (Optional) Use tools like **Burp Suite** to test for vulnerabilities.
 
----
 
 ## Testing Scenarios
 
@@ -64,7 +59,6 @@ This project includes pages intentionally vulnerable to:
 - Use Burp Suite intruder to automate brute-force or IDOR attacks.
 - Use the CSRF attack page to test unauthorized requests.
 
----
 
 ## License
 
